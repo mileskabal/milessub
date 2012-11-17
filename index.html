@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>milesSub</title>
+  <link rel="icon" href="img/milessub_48.png" sizes="48x48"/>
+  <link rel="icon" href="img/milessub_32.png" sizes="32x32"/>
+  <link rel="stylesheet" href="css/jplayer.black.css" style="text/css" media="all" />
+  <link rel="stylesheet" href="css/milessub.black.css" style="text/css" media="all" />
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/jquery.1.7.min.js"></script>	
+  <script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+  <script type="text/javascript" src="js/jquery.simplemodal.min.js"></script>
+  <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="js/jplayer.playlist.js"></script>
+  <script type="text/javascript" src="js/jquery.jplayer.inspector.js"></script>
+  <script type="text/javascript" src="js/jwerty.js"></script>
+  <script type="text/javascript" src="js/subsonic.js"></script>
+  <script type="text/javascript" src="js/milessub.js"></script>
+</head>
+<body>
+  <div id="player">
+    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+    <div id="jp_container_1" class="jp-audio">
+      <div class="jp-type-playlist">
+        <div class="jp-gui jp-interface">
+          <div class="logo"></div>
+          <div class="togglelist"><a href="#" class="settings"></a><a href="#" class="popupplaylist"></a><a href="#" class="playlistlink"></a></div>
+		  <div class="searchbar"><input name="searchquery" id="searchquery" type="text" size="40" placeholder="Search..." /></div>
+          <div class="coverart"><img src="img/default.jpg" alt="" /></div>
+          <div class="currentsong"></div>
+          <ul class="jp-controls">
+            <li><a href="javascript:;" class="jp-previous" tabindex="1">previous</a></li>
+            <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+            <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+            <li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+            <li><a href="javascript:;" class="jp-next" tabindex="1">next</a></li>
+            <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+            <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+            <li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>
+          </ul>
+          <div class="jp-progress">
+            <div class="jp-seek-bar">
+              <div class="jp-play-bar"></div>
+            </div>
+          </div>
+          <div class="jp-volume-bar">
+            <div class="jp-volume-bar-value"></div>
+          </div>
+          <div class="jp-current-time"></div>
+          <div class="jp-duration"></div>
+          <ul class="jp-toggles"><li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li><li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li></ul>
+        </div>
+        <div class="jp-playlist">
+		  <div id="playlistlist"></div>
+          <ul id="ulplaylistlist">
+          <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div id="menu">
+	  <ul>
+	    <li class="separator"></li>
+	    <li><a href="#" class="showplaylist">Playlists</a></li>
+	    <li><a href="#" class="albumlist" data-type="newest">Recently added</a></li>
+	    <li><a href="#" class="albumlist" data-type="frequent">Most played</a></li>
+	    <li><a href="#" class="albumlist" data-type="recent">Recently played</a></li>
+	    <li><a href="#" class="albumlist" data-type="random">Random</a></li>
+	    <!--<li><a href="#" class="albumlist" data-type="starred">Starred</a></li>
+	    <li><a href="#" class="albumlist" data-type="highest">Highest</a></li>-->
+	    <li class="separator"></li>
+	  </ul>
+  </div>
+  <div id="main">
+    <div id="loader"><img src="img/ajax-loader.gif" alt="" /></div>
+    <div id="breadcrumb"></div>
+    <div id="musicFolders">
+	  <div class="content"></div>
+	</div>
+  </div>
+</body>
+</html>

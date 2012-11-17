@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   "icons": {
+      "128": "img/milessub_128.png",
+      "64": "img/milessub_64.png",
+      "48": "img/milessub_48.png",
+      "32": "img/milessub_32.png"
+   },
+   "description": "milesSub",
+   "manifest_version": 2,
+   "name": "milesSub",
+   "permissions": [ "unlimited_storage", "notifications", "http://*/*", "https://*/*" ],
+   "version": "1"
+}
