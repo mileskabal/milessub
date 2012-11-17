@@ -19,6 +19,7 @@ albumListLabel['starred'] = 'Starred';
 
 $(document).ready(function(){
 	
+	//if we have already the settings in localStorage else we init the settings
 	if(localStorage['pass'] && localStorage['user'] && localStorage['server']){
 		connectSubsonic();
 	}
