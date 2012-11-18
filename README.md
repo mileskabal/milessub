@@ -12,6 +12,8 @@ Licensed under the MIT license.
 * Version: 1
 * Date: 17th November 2012
 
+http://www.mileskabal.com
+
 milesSub works with some libraries :
 
 	[jQuery]
