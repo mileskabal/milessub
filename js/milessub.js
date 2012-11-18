@@ -1,3 +1,12 @@
+/*
+* milesSub (chrome app for Subsonic)
+* Copyright (c) 2012 mileskabal.com
+* Licensed under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* Author: Miles
+* Version: 1
+* Date: 17th November 2012
+*/
 String.prototype.addslashes = function(){return this.replace(/[\\"']/g, '\\$&').replace(/\u0000/g, '\\0');};
 
 var oSubsonic;

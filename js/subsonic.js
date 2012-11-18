@@ -1,4 +1,13 @@
-﻿function Subsonic(hostInit,userInit,pwdInit){
+﻿/*
+* milesSub (chrome app for Subsonic)
+* Copyright (c) 2012 mileskabal.com
+* Licensed under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* Author: Miles
+* Version: 1
+* Date: 17th November 2012
+*/
+function Subsonic(hostInit,userInit,pwdInit){
 	var host;
 	var user;
 	var pwd;
