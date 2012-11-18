@@ -53,12 +53,17 @@ $(document).ready(function(){
 	$("#breadcrumb ul li.link a").live("click", function(){ 
 		if($(this).data('extra')){			
 			if($(this).data('id') == 'albumlist'){
+				activeSearch = false;
 				offsetAlbumList=0;
 				albumList($(this).data('extra'),offsetAlbumList);
 			}
 			if($(this).data('id') == 'search'){
 				activeSearch = false;
 				search($(this).data('extra'));
+			}
+			if($(this).data('id') == 'playlist'){
+				activeSearch = false;
+				showPlaylist();
 			}
 		}
 		else{
@@ -349,7 +354,7 @@ function showPlaylist(){
   loader(true);
   playlist = oSubsonic.playlists();
   $('#musicFolders .content').html(playlist);
-  breadcrumb('','Playlists',true);
+  breadcrumb('playlist','Playlists',true,'playlist');
   loader(false);
 }
 
