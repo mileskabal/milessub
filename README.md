@@ -1,4 +1,5 @@
 **milesSub**
+
 milesSub is a chrome app for Subsonic
 
 This is a webapp with a html5 player for use with Subsonic server.
@@ -11,9 +12,11 @@ Licensed under the MIT license.
 * Version: 1
 * Date: 17th November 2012
 
-milesSub works with this library :
+milesSub works with some libraries :
+
 	[jQuery]
-		jQuery v1.7 jquery.com | jquery.org/license
+		jQuery v1.7 jquery.com
+		* jquery.org/license
 
 	[jwerty]
 		jwerty - Awesome handling of keyboard events
