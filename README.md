@@ -5,7 +5,7 @@ milesSub is a chrome app for Subsonic
 This is a webapp with a html5 player for use with Subsonic server.  
 Subsonic software is by Sindre Mehus(sindre@activeobjects.no) - http://www.subsonic.org
 
-Copyright (c) 2012 mileskabal.com
+Copyright (c) 2012 mileskabal.com  
 Licensed under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 * Author: Miles
