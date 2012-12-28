@@ -280,7 +280,6 @@ function savePlaylist(){
 		  }
 		  
 		  save = oSubsonic.saveplaylist(songid,param,value);
-		  alert(save);
 		  if(save != 'ok'){
 			alert(save);
 		  }
